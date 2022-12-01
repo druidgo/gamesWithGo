@@ -263,6 +263,7 @@ func input() {
 
 // define textures in begin and endRender functions and set the render
 // draw target to that
+// Trying git commit
 func beginRender(texture *sdl.Texture) {
 	renderer.SetDrawColor(bkg.R, bkg.G, bkg.B, bkg.A)
 	if texture != nil {
